@@ -254,6 +254,7 @@ select option {
    background-color: rgb(201, 175, 6);
    color: #efefef;
    font-weight: 600;
+   outline: none;
 }
 
 .btn-clima:hover {
