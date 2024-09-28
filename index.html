@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=\, initial-scale=1.0">
+   <title>Enviar Emails</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+      <section>
+         <!--Estrellas -->
+         <div class="overlay"></div>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+        
+        <!-- Formulario del buscador de Climas -->
+        <div class="content">
+          <h1 id="titulo">Buscar Clima</h1>
+          <div class="aside">
+            <form action="#" id="formulario" method="POST">
+                <div class="form text">
+                  <input
+                    type="text"
+                    name="ciudad"
+                    id="ciudad"
+                    placeholder="Escribe tu cuidad">
+                </div>
+                <div class="form select">
+                  <select id="pais">
+                    <option disabled selected value=""></option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="ES">España</option>
+                        <option value="US">Estados Unidos</option>
+                        <option value="MX">México</option>
+                        <option value="PE">Perú</option>
+                  </select>
+                </div>
+                <div class="btn">
+                  <input class="btn-clima"
+                  type="submit"
+                  value="Obtener Clima">
+                </div>
+            </form> 
+          </div>
+          <div id="resultado">
+            <p>Agrega tu ciudad y país, el resultado se mostrará aquí</p>
+          </div>
+        </div>
+      </section>
+   </div>  
+   <script src="script.js"></script> 
+</body>
+</html>
